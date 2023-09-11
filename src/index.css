@@ -1,0 +1,38 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.textarea-custom-scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.textarea-custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #97d0f8;
+  border-radius: 4px;
+}
+
+.textarea-custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #8be4f6;
+}
+
+.textarea-custom-scrollbar::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 4px;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.button-recording {
+  background: linear-gradient(to right, rgb(177, 243, 177), rgb(95, 168, 95));
+}
+
+.button-not-recording {
+  background: linear-gradient(to right, #7fb4fa, #979afa);
+}
